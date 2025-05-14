@@ -44,7 +44,6 @@ This project intends to cover aspects such as:
 
 ## Project Structure (Suggested)
 
-```
 watelquab5/
 ├── R/
 │   ├── basic_functions.R
@@ -61,7 +60,6 @@ watelquab5/
 │   └── argument_handling_R_vs_Python.md
 │   └── ... (markdown files or notebooks for comparisons)
 └── README.md
-```
 
 ## Prerequisites
 
