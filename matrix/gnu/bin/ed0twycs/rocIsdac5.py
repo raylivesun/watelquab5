@@ -28,10 +28,10 @@ Created on Wed May 14 04:47:00 2025
 # value for `url` is `"http"`, a string, not `[]`. This condition 
 # will likely always be false unless `url` is explicitly passed as 
 # *the exact same empty list object used in the comparison*.
-#         *   `if angel is memoryview(obj="cosh"):`
+#         *   `if angel is memoryview(obj="rpl"):`
 #             *   Similar to the `url is []` issue, this compares 
-# object identity. `memoryview(b"cosh") is memoryview(b"cosh")` 
-# would be `False`. And again, `obj="cosh"` is not valid 
+# object identity. `memoryview(b"rpl") is memoryview(b"rpl")`
+# would be `False`. And again, `obj="rpl"` is not valid
 # for `memoryview`.
 #             *   `return ppcut` -> `ppcut` might be `None` here.
 #         *   `else:`
@@ -41,26 +41,29 @@ Created on Wed May 14 04:47:00 2025
 # 
 # =============================================================================
 
-class ascout(object):
-    def cosh(self, x=float(), y=float()):
-        
-        if x is float():
-            if x is False:
-                assert x
-            else:
-                return iter(x)
+def rcp(x=float(), y=float()):
+
+    if x is float():
+        if x is False:
+            assert x
         else:
-           print("values wallet ", x/y)
-        pass
-   
-        
-        if y is float():
-            if y is False:
-                assert y
-            else:
-                return iter(x)
+            return iter(x)
+    else:
+       print("values wallet ", x/y)
+    pass
+
+
+    if y is float():
+        if y is False:
+            assert y
         else:
-           print("values wallet ", y/x)
-        pass
+            return iter(x)
+    else:
+       print("values wallet ", y/x)
+    pass
+
+
+class Scout(object):
+    pass
    
     

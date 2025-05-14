@@ -6,7 +6,9 @@ Created on Wed May 14 01:24:28 2025
 @author: denis
 """
 
-class cosh(object): # direct to left to right
+
+# noinspection PyArgumentList
+class Rpl(object): # direct to left to right
       def __add__(self, x=None, y=None):
           
           if x is None:
